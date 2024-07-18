@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: ec2a17dc27e4e4c74383ebfade7bae2a323d3d1e789ff24c3b5306c4a059bb83
       BRANCH_NAME: main
-      SCAN_ID: 927b964898fd083998a1cbaf8165ee4957be26702fb64ab91b6dadadd19491a6
+      SCAN_ID: 3170c17d04f213048765732e40f437ca9a7e9da2c0dec910fe1a7a41513c348c
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.uat.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.uat.securin.io/resultparserapi\"\
         }')}}"
